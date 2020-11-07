@@ -1,0 +1,41 @@
+{
+    
+    "freshdeskDomain": {
+      "display_name": "Freshdesk domain",
+      "description": "Please enter freshdesk subdomain - Example: https://yourdomain.freshdesk.com",
+      "type": "domain",
+      "required": true,
+      "type_attributes": {
+        "product": "freshdesk"
+    }
+    },
+    "freshdeskAPIKey": {
+      "display_name": "Freshdesk API Key",
+      "description": "Please enter freshdesk api key",
+      "type": "api_key",
+      "required": true,
+      "secure": true,
+      "type_attributes": {
+        "product": "freshdesk"
+    }
+    },
+    "botUserID": {
+        "display_name": "Freshdesk Bot Account",
+        "description": "Enter Freshdesk Account ID of your Bot user",
+        "type": "number",
+        "required": true
+    },
+    "cogniassistInstanceURL": {
+        "display_name": "CogniAssist Instance URL",
+        "description": "Please enter your Bot instance URL",
+        "type": "url",
+        "required": true
+    },
+    "cogniassistAPIKey": {
+        "display_name": "CogniAssist API Key",
+        "description": "Please enter your CogniAssist API Key",
+        "type": "text",
+        "secure": true,
+        "required": true
+    }
+}
