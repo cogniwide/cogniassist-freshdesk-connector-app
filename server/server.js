@@ -29,6 +29,7 @@ exports = {
       "body_text": args['data']['ticket']['description_text'],
       "body_html": args['data']['ticket']['description'],
       "ticket_id": args['data']['ticket']['id'],
+      "ticket_subject": args['data']['ticket']['subject'],
       "event": "ticket_created",
       "meta": {
         "attachments": args['data']['ticket']['attachments']
